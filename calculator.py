@@ -50,7 +50,7 @@ def get_interest_rate(api_key, loan_term, loan_type):
     return rate[0]
 
 if __name__ == "__main__":
-    api_key = "dd3276f3979c0b0880ee57a5b9fda797"
+    api_key = ""
 
     print("\nEnter your incomes line by line. When you're done, type 'done':")
     annual_income = get_input_values("Income: ")
